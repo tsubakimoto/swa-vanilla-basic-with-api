@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -11,15 +11,7 @@
 <body>
   <main>
     <h1>Vanilla JavaScript App</h1>
-    <p>Loading content from the API: <b id="name">...</b></p>
   </main>
-
-  <script>
-    (async function () {
-      const text = await (await fetch(`/api/message`)).text();
-      document.querySelector('#name').textContent = text;
-    }());
-  </script>
 </body>
 
 </html>

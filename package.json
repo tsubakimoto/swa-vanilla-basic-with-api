@@ -2,6 +2,6 @@
   "name": "vanilla-basic",
   "version": "1.0.0",
   "scripts": { 
-    "start": "swa start src --api-location api"
+    "start": "sirv ./src public --cors --single --no-clear --port 8000"
   }
 }
